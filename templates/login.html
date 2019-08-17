@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Index
+{% endblock %}
+
+{% block headline1 %}
+{{title}}
+{% endblock %}
+
+{% block content %}
+<p>{{ message }}</p>
+<form action="" method="post">
+    <p>ID:<input type=text name=uid>
+    <p>PW:<input type=password name=pwd>
+    <p><input type=submit value=Login>
+</form>
+{% endblock %}
+
+{% block footer %}
+copyrights 2019 Nokkun
+{% endblock %}

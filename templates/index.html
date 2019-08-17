@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Index
+{% endblock %}
+
+{% block headline1 %}
+{{title}}
+{% endblock %}
+
+{% block content %}
+<p>{{ message }}</p>
+<a href="http://localhost:5000/login">login page</a>
+<br>
+<a href="http://localhost:5000/logout">logout</a>
+{% endblock %}
+
+{% block footer %}
+copyrights 2019 Nokkun
+{% endblock %}
